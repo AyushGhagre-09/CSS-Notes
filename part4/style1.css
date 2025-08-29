@@ -1,0 +1,14 @@
+/* transition */
+div{
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    border: 2px solid black;
+    margin: 0 auto;
+    transition:margin-top 3s ease-out 0.2s ; 
+}
+
+div:hover{
+    margin-top: 400px;
+    background-color: pink;
+}

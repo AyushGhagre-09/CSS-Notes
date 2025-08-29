@@ -1,0 +1,78 @@
+/* universal selector */
+*{
+    font-family:'Courier New';
+}
+/* element selector */
+h1,h3{
+  color:#b92b27;
+
+}
+/* id selector */
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color:white;
+}
+/* class selector */
+.upvote{
+    color:cadetblue;
+    background-color:white;
+}
+/* desendent selector */
+.post a {
+    color :purple;
+    background-color: yellow;
+}
+/* adjacent sibling selector(only first sibling) */
+p+h3{
+    text-decoration:underline;
+}
+/* child selector */
+div>input{
+    background-color:burlywood;
+}
+/* attribute selector */
+input[type="text"]{
+color: red;
+}
+input[type="password"]{
+    color:green;
+}
+input[type]{
+    background-color:blueviolet;
+}
+/* pseudo class (here hover ,active ,checked, nth of type is pseudo class) */
+button:hover{
+    color:white;
+    background-color: black;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color:pink;
+}
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+}
+.post:nth-of-type(2){
+background-color: cadetblue;
+}
+/* pseudo element */
+h1::first-letter{
+color:black;
+}
+p::first-line{
+    color:purple
+}
+p::selection{
+    background-color:rgb(239, 208, 6);
+}
+
+/* !important */
+#login{
+    background-color: antiquewhite !important;
+}

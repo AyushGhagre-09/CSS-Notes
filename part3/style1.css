@@ -1,0 +1,17 @@
+span{
+    border :2px solid black;
+    height: 200px;
+    width: 200px;
+    padding :40px;
+    margin :25px;
+    background-color: aqua;
+}
+div{
+    border :2px solid black; 
+    height: 200px;
+    width: 200px;
+    padding :40px;
+    margin :25px;
+}
+/* note -> style to element will not apply if it is inline(height ,width, padding, margin) but border will apply.
+    for div all the style will be work */

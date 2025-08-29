@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width:500px;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: aqua; */
+    border:2px solid aqua; 
+     /* border-left: blue;
+    border-left-style: dashed; 
+    border-left-color: aquamarine; */
+    border-left: 3px dashed blue;
+    border-radius: 20px;
+    border-top-left-radius: 30px;
+    margin: 25px 15px;
+}
+button{
+    border-radius: 10px;
+    border :2px solid red;
+    padding: 20px 30px;
+}
+#btn{
+    padding: 0 30px 0 30px;
+}
+h2{
+    display: inline;
+}
+span{
+    display:block;
+}

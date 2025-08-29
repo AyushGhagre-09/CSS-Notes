@@ -1,0 +1,16 @@
+/* alpha */
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgba(255,0,0 ,0.2);
+    margin-bottom: 25px;
+}
+/* opacity */
+#opacity{ 
+    height: 200px;
+    width: 200px;
+    border:2px solid black;
+    background-color: brown;
+    opacity: 1;
+}

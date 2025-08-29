@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color: aquamarine;
+    padding: 30px;
+    margin: 5px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#three{
+    display: none;
+}

@@ -1,0 +1,39 @@
+/* it will align according to its parent element
+text-align */
+h1{
+    text-align: right;
+    width:50%; 
+  /* border:solid;  */
+}
+
+p{
+    text-align: justify;
+}
+
+/* font weight */
+h2{
+    font-weight: normal;
+}
+
+/* text-decoration */
+h3{
+    text-decoration: red dotted underline;
+}
+a{
+    text-decoration: none;
+}
+
+/* line-height and letter spacing */
+p{
+    line-height: 1.5;
+    /* letter-spacing:3px; */
+}
+/* font size */
+h1{
+    font-size: 30px;
+} 
+/* font family */
+p{
+    /* font-family: Arial; */
+    font-family: avant garde,didot,impact;
+}
