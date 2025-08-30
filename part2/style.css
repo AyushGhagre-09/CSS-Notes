@@ -29,6 +29,11 @@ h1,h3{
 p+h3{
     text-decoration:underline;
 }
+
+/* general sibling selector(all sibling) */
+p~h3{
+    text-decoration:underline;
+}
 /* child selector */
 div>input{
     background-color:burlywood;
